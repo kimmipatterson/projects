@@ -1,0 +1,75 @@
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+header img{
+    width: 40%;
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+nav {
+    font-weight: 300;
+    text-align: right;
+    margin: 30px;
+}
+
+nav ul {
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2em;    
+    color: gray;
+}
+
+nav a:hover {
+    font-weight: 500;
+    color: gray;
+}
+
+.active {
+    font-weight: 500;
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, .75);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+@media screen and (min-width: 600px) {
+
+    
+
+}
+
+@media screen and (min-width: 1000px) {
+
+
+}
+
+
+
