@@ -93,6 +93,7 @@ aside {
     }
 
     main {
+        margin-top: 170px;
         width: 80%;
     }
     
@@ -104,6 +105,10 @@ aside {
 }
 
 @media screen and (min-width: 1000px) {
+    main {
+        margin-top: 200px;
+        width: 80%;
+    }
 
 
 }
