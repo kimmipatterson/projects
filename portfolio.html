@@ -5,9 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="dist/slicknav.css">
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="dist/jquery.slicknav.min.js"></script>
+    <script src="dist/js/lightbox.min.js"></script>
+    <script>
+        $(function(){
+            $('#menu').slicknav();
+        });
+    </script> 
 </head>
 
 <body>
@@ -30,30 +40,31 @@
 
         <div class="flex">
             <aside>
-                <img src="images/placeholder.png" alt="project"><br>
+                <a href="images/placeholder.png" data-lightbox="Gallery" data-title="Project 1"> <img src="images/placeholder.png" alt="Project 1"></a>
+
                 Project Title
             </aside>
             <aside>
-                <img src="images/placeholder.png" alt="project"><br>
+                <a href="images/placeholder.png" data-lightbox="Gallery" data-title="Project 2"> <img src="images/placeholder.png" alt="Project 2"></a>
                 Project Title
             </aside>
             <aside>
-                <img src="images/placeholder.png" alt="project"><br>
+                <a href="images/placeholder.png" data-lightbox="Gallery" data-title="Project 3"> <img src="images/placeholder.png" alt="Project 3"></a>
                 Project Title
             </aside>
         </div>
 
         <div class="flex">
             <aside>
-                <img src="images/placeholder.png" alt="project"><br>
+                <a href="images/placeholder.png" data-lightbox="Gallery" data-title="Project 4"> <img src="images/placeholder.png" alt="Project 4"></a>
                 Project Title
             </aside>
             <aside>
-                <img src="images/placeholder.png" alt="project"><br>
+                <a href="images/placeholder.png" data-lightbox="Gallery" data-title="Project 5"> <img src="images/placeholder.png" alt="Project 5"></a>
                 Project Title
             </aside>
             <aside>
-                <img src="images/placeholder.png" alt="project"><br>
+                <a href="images/placeholder.png" data-lightbox="Gallery" data-title="Project 6"> <img src="images/placeholder.png" alt="Project 6"></a>
                 Project Title
             </aside>
         </div>
