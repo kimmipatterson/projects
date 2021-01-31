@@ -47,7 +47,7 @@ nav a {
 
 nav a:hover {
     font-weight: 600;
-    color: gray;
+    color: #999999;
 }
 
 .topnav {
@@ -78,10 +78,21 @@ aside {
 
 .photo-credit {
     font-size: .5em;
+    color: #999999;
 }
 
+.photo-credit, main a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #999999;
+}
 
-
+footer {
+    text-align: center;
+    margin: 30px;
+    color: #707070;
+    font-size: .75em;
+}
 
 
 @media screen and (min-width: 600px) {
@@ -109,6 +120,10 @@ aside {
 }
 
 @media screen and (min-width: 1000px) {
+    nav {
+        font-size: 1.25em;
+    }
+
     main {
         margin-top: 200px;
         width: 80%;
